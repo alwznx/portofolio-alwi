@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-950 text-slate-200 font-sans antialiased;
+  /* Membuat background pattern kotak-kotak halus */
+  background-image: linear-gradient(to right, #1e293b 1px, transparent 1px),
+    linear-gradient(to bottom, #1e293b 1px, transparent 1px);
+  background-size: 4rem 4rem; /* Ukuran kotak grid */
+  /* Efek vignette agar pinggiran layar lebih gelap */
+  background-position: center top;
+}
+
+/* Masking agar grid memudar di bagian bawah (opsional, biar makin smooth) */
+.bg-grid-mask {
+  mask-image: linear-gradient(to bottom, black 40%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 40%, transparent 100%);
+}
+
+/* Scrollbar Custom (Biar tidak kaku) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-slate-950;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-800 rounded-full border-2 border-slate-950;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-700;
+}
