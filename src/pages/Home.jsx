@@ -77,7 +77,10 @@ const Home = () => {
               <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-blue-500 to-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity"></div>
               <span className="relative flex items-center gap-2">View Work <ArrowRight className="w-4 h-4" /></span>
             </a>
-            <a href="#" className="px-8 py-3 border border-slate-700 hover:border-blue-500/50 text-slate-300 hover:text-white rounded-full font-medium transition-all hover:bg-slate-800 flex items-center gap-2">
+            <a   href="https://drive.google.com/drive/folders/1Wefily6S_yYibcuxYLAvU9Aw6WUkFxKm?usp=sharing"
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="px-8 py-3 border border-slate-700 hover:border-blue-500/50 text-slate-300 hover:text-white rounded-full font-medium transition-all hover:bg-slate-800 flex items-center gap-2">
               Download CV <Download className="w-4 h-4" />
             </a>
           </div>

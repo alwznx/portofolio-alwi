@@ -164,7 +164,7 @@ const WelcomeScreen = ({ onComplete }) => {
             >
                <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-slate-900/50 border border-slate-800 text-slate-300 text-sm backdrop-blur-sm">
                   <Globe className="w-4 h-4 text-blue-500 animate-pulse" />
-                  <span>www.alwznx.dev</span>
+                  <span>portofolio-alwi.vercel.app</span>
                </div>
             </motion.div>
 
