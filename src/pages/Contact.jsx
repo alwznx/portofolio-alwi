@@ -79,7 +79,6 @@ const Contact = () => {
     { icon: <SiLinkedin />, href: "https://linkedin.com/in/ahmad-alwi-tio-wicaksono", color: "hover:bg-blue-700" },
     { icon: <SiInstagram />, href: "https://instagram.com/alwitiow_", color: "hover:bg-pink-600" },
     { icon: <SiWhatsapp />, href: "https://wa.me/628123456789", color: "hover:bg-green-600" },
-    { icon: <SiGmail />, href: "mailto:alwitiow@gmail.com", color: "hover:bg-red-600" },
   ];
 
   return (
